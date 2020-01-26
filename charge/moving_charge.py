@@ -346,7 +346,7 @@ class Window(tk.Frame):
         p      = self.get_pos(t, stype)[0]
         tarray = np.arange(t-15., t, 0.1)
 
-        print ('t:', t)
+        print ('time:', round(t,1) )
 
         self.a.clear()
 
